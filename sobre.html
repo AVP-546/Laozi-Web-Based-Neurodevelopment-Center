@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="site2.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image" href="LogoRoxo.svg"></link>
+	<title>Laozi</title>
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="site2.html"><img src="logo3.svg"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="site2.html">HOME</a></li>
+					<li><a href="sobre.html">ABOUT</a></li>
+					<li><a href="contacto.html">CONTACT</a></li>
+					<li><a href="login3.html">LOGIN</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>About</h1>
+	</section>
+
+<!--Conteúdo Sobre---->
+<section class="about-us">
+	<div class="row">
+		<div class="about-col">
+			<h1>Dyslexia</h1>
+			<p>Dyslexia is the most famous member of the Specific Learning Disorders (SLD's) group, and, although it affects mostly reading, it is often associated with difficulty with written expression. Having competence in reading and writing is key to most educative systems, therefore, a child with dyslexia will struggle in most curricular areas. This can lead to increasing disinterest for learning and a reduced sel-esteem, but this does not dictate one's future success, for instance, both Tom Cruise and Thomas Edinson are famous dyslexics.  </p>
+			<a href="dislexia.html" class="hero-btn red-btn">Explore</a>
+		</div>
+		<div class="about-col">
+			<img src="estudo.jpg">
+		</div>
+	</div>
+</section>
+<section class="about-us">
+	<div class="row">
+		<div class="about-col">
+			<h1>Dyscalculia</h1>
+			<p>Dyscalculia influences the way that arithmetic concepts and processes are understood, originating from a neurobiological dysfunction. Although it is part of de Specific Learning Disorders (SLD's), it is often hard to diagnose due to some patients having islets of math capability, for example, being good only at geometry. For children with dyscalculia, numbers are independent entities, not recognising combinations they display, such as the recognition that a number may contain other numbers on itself (80 = 4x20, e.g.).</p>
+			<a href="discalculia.html" class="hero-btn red-btn">Explore</a>
+		</div>
+		<div class="about-col">
+			<img src="estudo7.png">
+		</div>
+	</div>
+</section>
+<section class="about-us">
+	<div class="row">
+		<div class="about-col">
+			<h1>Other Games</h1>
+			<p>Our whole website is designed to help children with learning disorders, but they are, first and foremost, children. Therefore, we developed a panoply of videogames with the goal of promoting relaxation and a joyful time for kids who play them. You can play alone or with your family, you may test your geography skills, or try to beat our Trivia Quiz, you are the one in command here. Play on a break or try to beat your own highscore, the important part is to have fun while you do it! </p>
+			<a href="outrosjogos.html" class="hero-btn red-btn">Explore</a>
+		</div>
+		<div class="about-col">
+			<img src="estudo3.jpg">
+		</div>
+	</div>
+</section>
+<section class="about-us-comment">
+	<div class="comment-box">
+		<h3>Leave Your Feedback</h3>
+		<p>If you would like to share your opinion with other users or with us, please don't hesitate to write it down. At Laozi, everyone has the right to be heard, and all opinions are taken into account to improve our website and content. We remind you in advance that respect is a fundamental pillar of this space.</p>
+		<form class="comment-form">
+			<input type="text" placeholder="Name">
+			<input type="email" placeholder="Email">
+			<textarea rows="5" placeholder="Your Comment"></textarea>
+			<button type="submit" class="hero-btn red-btn">Send Feedback</button>
+		</form>
+	</div>
+</section>
+<!--Footer-->
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Based In Portugal, Laozi is where innovation meets excellence. We are dedicated to deliver top-quality products<br> and services, tailored to meet users' unique needs. Join us in shaping a brighter future together.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p> <sup> © </sup> All Rights Reserved | Laozi 2024 </p>
+</section>
+
+<!-------------- JavaScript for Toggle Menu ------->
+	<script>
+		
+		var navLinks = document.getElementById("navLinks");
+		function showMenu() {
+			navLinks.style.right = "0";
+		}
+
+		function hideMenu() {
+			navLinks.style.right = "-200px";
+		}
+
+	</script>
+</body>
+</html>

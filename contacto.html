@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="site2.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image" href="LogoRoxo.svg"></link>
+	<title>Laozi</title>
+</head>
+<body>
+	<section class="sub-headerc">
+		<nav>
+			<a href="site2.html"><img src="logo3.svg"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="site2.html">HOME</a></li>
+					<li><a href="sobre.html">ABOUT</a></li>
+					<li><a href="contacto.html">CONTACT</a></li>
+					<li><a href="login3.html">LOGIN</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Contact Our Team</h1>
+	</section>
+
+<!--Contacto---->
+<section class="location">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2985.545386339759!2d-8.418813523713236!3d41.55743957127867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24fe939d7548af%3A0xc6df060fa3067812!2sCol%C3%A9gio%20Dom%20Diogo%20de%20Sousa!5e0!3m2!1spt-PT!2spt!4v1714420586687!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contact-us">
+	<div class="row">
+		<div class="contact-col">
+			<div>
+				<i class="fa fa-home"></i>
+				<span>
+				<h5>Conselheiro Bento Miguel St., 4710-294</h5>
+				<p>Braga, Portugal</p>
+			</span>
+			</div>
+			<div>
+				<i class="fa fa-phone"></i>
+				<span>
+				<h5>+351 987 654 321</h5>
+				<p>Monday to Saturday, 9am to 6pm</p>
+			</span>
+			</div>
+			<div>
+				<i class="fa fa-envelope-o"></i>
+				<span>
+				<h5>laozicservice@gmail.com</h5>
+				<p>Send us your inquiries via email</p>
+			</span>
+			</div>
+		</div>
+		<div class="contact-col">
+			<form action="form-handler.php" method="post">
+				<input type="text" placeholder="Name" required name="name">
+				<input type="email" placeholder="Email" required name="email">
+				<input type="text" placeholder="Subject" required name="subject">
+				<textarea rows="8" placeholder="Message" required name="message"></textarea>
+				<button type="submit" class="hero-btn red-btn">Send Message</button>
+			</form>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+<!--Footer-->
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Based In Portugal, Laozi is where innovation meets excellence. We are dedicated to deliver top-quality products<br> and services, tailored to meet users' unique needs. Join us in shaping a brighter future together.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p> <sup> © </sup> All Rights Reserved | Laozi 2024 </p>
+</section>
+
+<!-------------- JavaScript for Toggle Menu ------->
+	<script>
+		
+		var navLinks = document.getElementById("navLinks");
+		function showMenu() {
+			navLinks.style.right = "0";
+		}
+
+		function hideMenu() {
+			navLinks.style.right = "-200px";
+		}
+
+	</script>
+</body>
+</html>

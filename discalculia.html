@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="site2.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image" href="LogoRoxo.svg"></link>
+	<title>Laozi</title>
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="site2.html"><img src="logo3.svg"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="site2.html">HOME</a></li>
+					<li><a href="sobre.html">ABOUT</a></li>
+					<li><a href="contacto.html">CONTACT</a></li>
+					<li><a href="login3.html">LOGIN</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Dyscalculia</h1>
+	</section>
+
+<!--Conteúdo Sobre---->
+<section class="about-uso">
+		<div class="about-cola">
+			<h1>Dyscalculia</h1>
+			<p>Not every children that has difficulty with maths has dyscalculia, sometimes it is something temporary or related only to a certain area of competence. Dyscalculia is a Specific Learning Disorder (SLD) related mathematic capabilities, that influences and affects the way arithmetic concepts and processes are understood, originating in a neurobiological dysfunction. <br><br>
+			As every SLD, dyscalculia may have different forms and effects, evolving over time. Children with dyscalculia struggle to comprehend numeric concepts and learning mathmatic facts and processes. For them, numbers are independent entities, not recognising the combinations they may assume, for example, the knwoledge that a number can contain other numbers within itself (80 = 4x20). Beyond that, a child with dyscalculia often displays "islets of competence", for instance, being good only at geometry.
+			<br><br>
+			Children with dyscalculia may display difficulty in reading and writing numbers, recognising their relations and understanding the patterns and sequences of decimal numbers. They also often have a hard time in regressive counting, alternated counting, multiplication tables and estimating results for numerica operations (for instance, estimating that the result of a subtraction will always be a smaller number than the first parcel, or that the result of an addition will always be a superior value than both of the parcels (natural numbers)). With the advance of the school grades and the subject, these kids will often struggle with monetary operations, the concept of time and the applicability of formulas. Furthermore, the continuity of mistakes in maths lowers thei confidence, which, by itself, poses as an obstacle to progress.
+			<br><br>
+			The recognition of the concept of numbers and what digits represent are the pillars of mathematical learning. On an early stage, this conscience allows one to identify the number of items in a small group, without counting one by one (using visual memory). Subsequently, the brain develops the ability to count the number of items in a larger group, by dividing them into smaller groups of known quantity (e.g. three sheep, add three, six, add three, nine...), being an instinctive ability, that is present from primates to bees. However, kids with dyscalculia express difficulty in using this process, therefore, affecting the ability of comparing, ordering and processing quantities. A quick example, reported by a well-known portuguese psychologist, António Lobo Antunes, is that he asked a 11-year-old boy to show him 9 fingers. An average kid would do this easily, knowing that he has 10 fingers, would put all of them up and, after, put one down (10-1=9 would be the mental operation he would do). But this kid, in reality, had dyscalculia, so, what he did was counting how many fingers he had on his left hand, one by one, and then do the same on his right hand, until he reached 9 (1+1+1+1+... was the operation he used). The concept of number and the operations you can do with them is for dyscalculia what phonological processing is for <a href="dislexia.html">dyslexia</a>. 
+			<br><br>
+			Dyscalculia brings multiple consequences to these kids lives. Mathematical competences are of great importance for day-to-day life. Time managing, comparing products' prices and reading calendars or clocks are examples of how our life is dependent on maths. But the effects do not end there. Students with dyscalculia tend to select school subjects or degrees that do not imply using arithmetic processes, but the issue is that a large number of areas directly or indirectly need mathematics, such as physics, chemistry or even geography. This is why early intervention is key for a reduced impact on their adult life.<br><br>
+			Our developers, here at Laozi, designed a couple of games to test your maths skills (multiplication and addition). By playing these games, you are developing your mental calculus and its related processes, so why don't you give them a try? We wish you luck, but watch out, the timer is expiring!
+			 </p><center>
+			<a href="index.html" class="hero-btn red-btn">Play Multiplication Game</a>
+			<a href="index3.html" class="hero-btn red-btn">Play Addition Game</a></center>
+		</div>
+</section>
+
+	</div>
+</section>
+<section class="about-us-comment">
+	<div class="comment-box">
+		<h3>Tell Us About Your Experience</h3>
+		<p>If you have dyscalculia and do not mind telling your story, send us a message explaining your symptoms, how you were diagnosed, what effects does it have on your academic ability, areas you are good at, etc. It helps a lot, not only developing our website, but, also, with scientific investigation.</p>
+		<form class="comment-form">
+			<input type="text" placeholder="Name">
+			<input type="email" placeholder="Email">
+			<textarea rows="5" placeholder="Your Experience"></textarea>
+			<button type="submit" class="hero-btn red-btn">Send Message</button>
+		</form>
+	</div>
+</section>
+<!--Footer-->
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Based In Portugal, Laozi is where innovation meets excellence. We are dedicated to deliver top-quality products<br> and services, tailored to meet users' unique needs. Join us in shaping a brighter future together.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p> <sup> © </sup> All Rights Reserved | Laozi 2024 </p>
+</section>
+
+<!-------------- JavaScript for Toggle Menu ------->
+	<script>
+		
+		var navLinks = document.getElementById("navLinks");
+		function showMenu() {
+			navLinks.style.right = "0";
+		}
+
+		function hideMenu() {
+			navLinks.style.right = "-200px";
+		}
+
+	</script>
+</body>
+</html>
